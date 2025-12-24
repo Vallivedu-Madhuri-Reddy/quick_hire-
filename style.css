@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(145deg, #d9e6ff, #f2f8ff);
+}
+
+/* Navbar */
+nav {
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(15px);
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #1a2b4c;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #4e8df5;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+    margin-top: 30px;
+    background: rgba(255,255,255,0.3);
+    padding: 30px;
+    border-radius: 25px;
+    backdrop-filter: blur(14px);
+    box-shadow:
+        8px 8px 20px rgba(0, 0, 0, 0.15),
+        -8px -8px 20px rgba(255, 255, 255, 0.8);
+}
+
+.section-img {
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 20px;
+    box-shadow:
+        6px 6px 15px rgba(0,0,0,0.2),
+        -6px -6px 15px rgba(255,255,255,0.7);
+}
+
+/* SERVICES GRID */
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 25px;
+}
+
+.service-box {
+    padding: 20px;
+    background: rgba(255,255,255,0.4);
+    border-radius: 20px;
+    text-align: center;
+    box-shadow:
+        inset 4px 4px 12px rgba(0,0,0,0.1),
+        inset -4px -4px 12px rgba(255,255,255,0.7);
+}
+
+.service-box h3 {
+    color: #1a2b4c;
+}
+
+.service-box p {
+    font-size: 15px;
+    color: #333;
+}
+
+/* Contact Page */
+.contact-box {
+    margin-top: 30px;
+    padding: 20px;
+    background: rgba(255,255,255,0.35);
+    border-radius: 20px;
+    box-shadow:
+        inset 4px 4px 10px rgba(0,0,0,0.15),
+        inset -4px -4px 10px rgba(255,255,255,0.7);
+}
